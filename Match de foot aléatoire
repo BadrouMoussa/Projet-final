@@ -1,0 +1,25 @@
+from random import *
+
+
+
+
+liste = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
+
+for i in range (2):
+    liste.append( randint(1,30))
+    N = choice(liste)
+    print (N)
+#1 = FC Barcelona 2 = Real Madrid 3 = PSG 4 = Manchester United 5 = Manchester City
+#6 = Bayern 7 = Liverpool 8 = BV Borussia Dortmund 9 = Juventus 10 = Chelsea
+#11 = Arsenal 12 = Athlético Madrid 13 = Monaco 14 = LOSC Lille 15 = AC Milan 
+#16 = Everton 17 = Lyon 18 = Ajax 19 = Tottenham 20 = OM  21 = West Ham 
+#22 = FC Nantes 23 = Leipzig 24 = Atalanta 25 = Real Sociedad 26 = Crystal Palace 
+#27= Leeds 28 = Leicester 29 = Séville 30 = FC Porto
+
+
+
+
+
+
+
+#Questions : Comment afficher directement les noms des équipes? Comment supprimer les équipes déjà sélectionner?
